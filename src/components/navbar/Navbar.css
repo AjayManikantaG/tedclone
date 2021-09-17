@@ -1,8 +1,40 @@
 .navbar {
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
 }
 
 .navbar img {
-  width: 30%;
+  width: 250px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin-right: var(--navbar-cnt-space);
+}
+
+.navbar-list li {
+  margin-right: var(--navbar-cmn-space);
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .action-btn {
+  display: flex;
+}
+
+.navbar .action-btn button {
+  width: 8rem;
+  height: 2rem;
+  margin-left: var(--navbar-cmn-space);
 }
